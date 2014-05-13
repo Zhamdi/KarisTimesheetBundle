@@ -7,7 +7,7 @@ on who spends time and what they are doing in the projects and as a basis for bi
 Documentation
 -------------
 
-The bulk of the documentation is stored in the `Resources/doc/index.md`
+The documentation is stored in the `Resources/doc/index.md`
 file in this bundle:
 
 [Read the Documentation](https://github.com/Zhamdi/KarisTimesheetBundle/blob/master/Resources/doc/index.rst)
