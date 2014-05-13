@@ -10,7 +10,7 @@ Documentation
 The bulk of the documentation is stored in the `Resources/doc/index.md`
 file in this bundle:
 
-[Read the Documentation](https://github.com/Zhamdi/KarisTimesheetBundle/Resources/doc/index.md)
+[Read the Documentation](https://github.com/Zhamdi/KarisTimesheetBundle/Resources/blob/master/doc/index.md)
 
 Installation
 ------------
