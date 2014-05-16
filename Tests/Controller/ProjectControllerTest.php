@@ -6,7 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 class ProjectControllerTest extends WebTestCase
 {
-	
+
     public function testCompleteScenario()
     {
         // Create a new client to browse the application
@@ -32,14 +32,14 @@ class ProjectControllerTest extends WebTestCase
         $crawler = $client->click($crawler->selectLink('Edit')->link());
 
         $form = $crawler->selectButton('Update')->form(array(
-        	'karis_timesheetbundle_project[name]'  => 'Edit Test',
+            'karis_timesheetbundle_project[name]'  => 'Edit Test',
         ));
 
         $client->submit($form);
 
         // Check the element contains an attribute with value equals "Foo"
         $this->assertGreaterThan(0, $client->request('GET', '/karis/timesheet/project/')
-        		->filter('td:contains("Edit Test")')->count(), 'Update: Missing element');
+                ->filter('td:contains("Edit Test")')->count(), 'Update: Missing element');
 
         // Delete the entity
         $client->submit($crawler->selectButton('Delete')->form());
@@ -49,5 +49,4 @@ class ProjectControllerTest extends WebTestCase
         $this->assertNotRegExp('/Edit Test/', $client->getResponse()->getContent());
     }
 
-    
 }
