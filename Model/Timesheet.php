@@ -11,6 +11,14 @@ use Doctrine\ORM\Mapping as ORM;
 abstract class Timesheet implements TimesheetInterface
 {
     /**
+     * @var \Karis\TimesheetBundle\Entity\Project
+     *
+     * @ORM\ManyToOne(targetEntity="Project", inversedBy="timesheet")
+     * @ORM\JoinColumn(name="project_id", referencedColumnName="id")
+     */
+    protected $project;
+
+    /**
      * @var integer
      *
      * @ORM\Column(name="id", type="integer")
@@ -147,5 +155,28 @@ abstract class Timesheet implements TimesheetInterface
     public function getUpdatedAt()
     {
         return $this->updatedAt;
+    }
+
+    /**
+     * Set project
+     *
+     * @param  \Karis\TimesheetBundle\Entity\Project $project
+     * @return Timesheet
+     */
+    public function setProject(\Karis\TimesheetBundle\Entity\Project $project = null)
+    {
+        $this->project = $project;
+
+        return $this;
+    }
+
+    /**
+     * Get project
+     *
+     * @return \Karis\TimesheetBundle\Entity\Project
+     */
+    public function getProject()
+    {
+        return $this->project;
     }
 }
