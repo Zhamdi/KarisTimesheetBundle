@@ -14,14 +14,8 @@
     "require": {
         "php": ">=5.3.2",
     },
-    "repositories": [
-        {
-            "url": "https://github.com/Zhamdi/KarisTimesheetBundle.git"
-        },
-    ],
     "autoload": {
         "psr-0": { "Karis\\TimesheetBundle": "" }
     },
-    "minimum-stability": "dev",
     "target-dir": "Karis/TimesheetBundle"
 }
