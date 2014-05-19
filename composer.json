@@ -11,7 +11,7 @@
             "email": "hamdi.zayati@gmail.com"
         },
     ],
-    "require": {
+    "require-dev": {
         "php": ">=5.3.3",
         "symfony/symfony": "2.3.*",
         "symfony/framework-bundle": "~2.3",
@@ -19,6 +19,6 @@
     "autoload": {
         "psr-0": { "Karis\\TimesheetBundle": "" }
     },
-    "minimum-stability": "dev-master",
+    "minimum-stability": "dev",
     "target-dir": "Karis/TimesheetBundle"
 }
