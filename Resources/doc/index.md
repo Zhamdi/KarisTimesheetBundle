@@ -11,7 +11,7 @@ This version of the bundle requires Symfony 2.3+.
 
 1. Download KarisTimesheetBundle using composer
 2. Enable the Bundle
-3. Import KarisTimesheetBundle routing
+3. Import KarisTimesheetBundle routing file
 4. Update your database schema
 
 ### Step 1: Download KarisTimesheetBundle using composer
@@ -51,7 +51,7 @@ public function registerBundles()
 }
 ```
 
-### Step 3: Import KarisTimesheetBundle routing files
+### Step 3: Import KarisTimesheetBundle routing file
 
 Now that you have activated and configured the bundle, all that is left to do is
 import the KarisTimesheetBundle routing files.
@@ -85,4 +85,4 @@ For ORM run the following command.
 $ php app/console doctrine:schema:update --force
 ```
 
-You now can login at `http://app.com/app_dev.php/karis/timesheet`!
+You now can try our demo at `http://app.com/app_dev.php/karis/timesheet`!
