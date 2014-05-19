@@ -85,4 +85,4 @@ For ORM run the following command.
 $ php app/console doctrine:schema:update --force
 ```
 
-You now can login at `http://app.com/app_dev.php/timesheet`!
+You now can login at `http://app.com/app_dev.php/karis/timesheet`!
