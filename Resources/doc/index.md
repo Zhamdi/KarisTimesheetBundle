@@ -85,4 +85,4 @@ For ORM run the following command.
 $ php app/console doctrine:schema:update --force
 ```
 
-You now can login at `http://app.com/app_dev.php/karis/timesheet`!
+You now can try our demo at `http://app.com/app_dev.php/karis/timesheet`!
