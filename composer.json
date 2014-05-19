@@ -1,9 +1,9 @@
 {
     "name": "karis/timesheet-bundle",
     "type": "symfony-bundle",
-    "description": "This bundle is ideal for small companies that need to have detailed information on who spends time and what they are doing in the projects",
+    "description": "Symfony KarisTimesheetBundle",
     "keywords": ["Timesheet management", "timsheet", "symfony", "bundle"],
-    "homepage": "http://github.com/Zhamdi/KarisTimesheetBundle",
+    "homepage": "https://github.com/Zhamdi/KarisTimesheetBundle",
     "license": "MIT",
     "authors": [
         {
@@ -12,10 +12,13 @@
         },
     ],
     "require": {
-        "php": ">=5.3.2",
+        "php": ">=5.3.3",
+        "symfony/symfony": "2.3.*",
+        "symfony/framework-bundle": "~2.3",
     },
     "autoload": {
         "psr-0": { "Karis\\TimesheetBundle": "" }
     },
+    "minimum-stability": "dev",
     "target-dir": "Karis/TimesheetBundle"
 }
