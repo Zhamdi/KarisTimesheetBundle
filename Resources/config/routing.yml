@@ -2,7 +2,7 @@ karis_timesheet:
     resource: "@KarisTimesheetBundle/Controller"
     type:     annotation
     prefix:   /karis/timesheet
-    
+
 karis_timesheet_index:
     pattern:  /karis/timesheet/
     defaults: { _controller: FrameworkBundle:Template:template, template: 'KarisTimesheetBundle::index.html.twig' }
