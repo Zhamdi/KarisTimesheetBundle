@@ -8,6 +8,7 @@
             <tr>
                 <th>Id</th>
                 <th>Date</th>
+                <th>Project</th>
                 <th>Timespent</th>
                 <th>Createdat</th>
                 <th>Updatedat</th>
@@ -19,6 +20,7 @@
             <tr>
                 <td><a href="{{ path('karis_timesheet_timesheet_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
                 <td>{% if entity.date %}{{ entity.date|date('Y-m-d H:i:s') }}{% endif %}</td>
+                <td>{% if entity.project %}{{ entity.project }}{% endif %}</td>
                 <td>{% if entity.timeSpent %}{{ entity.timeSpent|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{% if entity.createdAt %}{{ entity.createdAt|date('Y-m-d H:i:s') }}{% endif %}</td>
                 <td>{% if entity.updatedAt %}{{ entity.updatedAt|date('Y-m-d H:i:s') }}{% endif %}</td>

@@ -1,0 +1,19 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Timesheet Management</h1>
+
+    <ul>
+        <li>
+            <a href="{{ path('karis_timesheet_project') }}">
+                Project list
+            </a>
+        </li>
+        <li>
+            <a href="{{ path('karis_timesheet_timesheet') }}">
+                Timesheet list
+            </a>
+        </li>
+    </ul>
+    {% endblock %}
+    
