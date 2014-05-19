@@ -19,6 +19,6 @@
     "autoload": {
         "psr-0": { "Karis\\TimesheetBundle": "" }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "dev-master",
     "target-dir": "Karis/TimesheetBundle"
 }
