@@ -12,7 +12,7 @@ env:
 before_script:
   - composer require symfony/framework-bundle:${SYMFONY_VERSION}
 
-script: phpunit -c app
+script: phpunit -c app src/Zhamdi/KarisTimesheetBundle/
 
 notifications:
   email:
