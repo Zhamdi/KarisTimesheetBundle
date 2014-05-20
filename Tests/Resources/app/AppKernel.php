@@ -12,7 +12,7 @@ class AppKernel extends TestKernel
         ));
 
         $this->addBundles(array(
-            new \Symfony\Cmf\Bundle\MyBundle\CmfMyBundle(),
+            new Karis\TimesheetBundle\KarisTimesheetBundle(),,
         ));
     }
 
