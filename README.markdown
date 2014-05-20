@@ -6,10 +6,7 @@ on who spends time and what they are doing in the projects.
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/2a8564da-2ca0-4b91-91fb-7f29d6b94947/mini.png)](https://insight.sensiolabs.com/projects/2a8564da-2ca0-4b91-91fb-7f29d6b94947)
 [![Build Status](https://travis-ci.org/Zhamdi/KarisTimesheetBundle.svg?branch=master)](https://travis-ci.org/Zhamdi/KarisTimesheetBundle)
-[![Downloads](https://poser.pugx.org/karis/timesheet-bundle/d/total.png)](https://packagist.org/packages/karis/timesheet-bundle)
-[![Latest Stable Version](https://poser.pugx.org/karis/timesheet-bundle/version.png)](https://packagist.org/packages/karis/timesheet-bundle)
-[![Latest Unstable Version](https://poser.pugx.org/karis/timesheet-bundle/v/unstable.png)](https://packagist.org/packages/karis/timesheet-bundle)
-[![License](https://poser.pugx.org/karis/timesheet-bundle/license.png)](https://packagist.org/packages/karis/timesheet-bundle)
+[![Latest Stable Version](https://poser.pugx.org/karis/timesheet-bundle/v/stable.png)](https://packagist.org/packages/karis/timesheet-bundle) [![Total Downloads](https://poser.pugx.org/karis/timesheet-bundle/downloads.png)](https://packagist.org/packages/karis/timesheet-bundle) [![Latest Unstable Version](https://poser.pugx.org/karis/timesheet-bundle/v/unstable.png)](https://packagist.org/packages/karis/timesheet-bundle) [![License](https://poser.pugx.org/karis/timesheet-bundle/license.png)](https://packagist.org/packages/karis/timesheet-bundle)
 
 Documentation
 -------------
