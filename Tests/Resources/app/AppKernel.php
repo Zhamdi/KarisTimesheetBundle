@@ -1,23 +1,9 @@
 ?php
 
-use Symfony\Cmf\Component\Testing\HttpKernel\TestKernel;
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\Config\Loader\LoaderInterface;
 
-class AppKernel extends TestKernel
+class AppKernel extends WebTestCase
 {
-    public function configure()
-    {
-        $this->requireBundleSets(array(
-            'default',
-        ));
-
-        $this->addBundles(array(
-            new Karis\TimesheetBundle\KarisTimesheetBundle(),,
-        ));
-    }
-
-    public function registerContainerConfiguration(LoaderInterface $loader)
-    {
-        $loader->load(__DIR__.'/config/config.php');
-    }
+    
 }
