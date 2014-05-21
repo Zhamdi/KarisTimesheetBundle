@@ -14,7 +14,7 @@ abstract class Timesheet implements TimesheetInterface
      * @var \Karis\TimesheetBundle\Entity\Project
      *
      * @ORM\ManyToOne(targetEntity="Project", inversedBy="timesheet")
-     * @ORM\JoinColumn(name="project_id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="project_id", referencedColumnName="id", nullable=false)
      */
     protected $project;
 

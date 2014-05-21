@@ -12,7 +12,9 @@ use Doctrine\Common\Collections\ArrayCollection;
 class Project implements ProjectInterface
 {
     /**
-     * @ORM\OneToMany(targetEntity="Timesheet", mappedBy="project")
+     *@var  \Karis\TimesheetBundle\Entity\Timesheet
+     * 
+     * @ORM\OneToMany(targetEntity="Timesheet", mappedBy="project", cascade={"persist", "remove"})
      */
     protected $timesheet;
 
@@ -169,7 +171,7 @@ class Project implements ProjectInterface
      * @param  \Karis\TimesheetBundle\Entity\Timesheet $timesheet
      * @return Project
      */
-    public function addTimesheet(\Karis\TimesheetBundle\Entity\Timesheet $timesheet)
+    public function addTimesheet($timesheet)
     {
         $this->timesheet[] = $timesheet;
 
@@ -181,7 +183,7 @@ class Project implements ProjectInterface
      *
      * @param \Karis\TimesheetBundle\Entity\Timesheet $timesheet
      */
-    public function removeTimesheet(\Karis\TimesheetBundle\Entity\Timesheet $timesheet)
+    public function removeTimesheet($timesheet)
     {
         $this->timesheet->removeElement($timesheet);
     }
