@@ -70,14 +70,14 @@ interface ProjectInterface
      * @param  \Karis\TimesheetBundle\Entity\Timesheet $timesheet
      * @return Project
      */
-    public function addTimesheet(\Karis\TimesheetBundle\Entity\Timesheet $timesheet);
+    public function addTimesheet($timesheet);
 
     /**
      * Remove timesheet
      *
      * @param \Karis\TimesheetBundle\Entity\Timesheet $timesheet
      */
-    public function removeTimesheet(\Karis\TimesheetBundle\Entity\Timesheet $timesheet);
+    public function removeTimesheet($timesheet);
 
     /**
      * Get timesheet
