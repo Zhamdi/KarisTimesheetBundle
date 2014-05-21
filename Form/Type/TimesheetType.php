@@ -8,6 +8,10 @@ use Symfony\Component\OptionsResolver\OptionsResolverInterface;
 
 class TimesheetType extends AbstractType
 {
+        /**
+     * @param FormBuilderInterface $builder
+     * @param array                $options
+     */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder

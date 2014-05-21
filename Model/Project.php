@@ -12,8 +12,6 @@ use Doctrine\Common\Collections\ArrayCollection;
 class Project implements ProjectInterface
 {
     /**
-     *@var  \Karis\TimesheetBundle\Entity\Timesheet
-     * 
      * @ORM\OneToMany(targetEntity="Timesheet", mappedBy="project", cascade={"persist", "remove"})
      */
     protected $timesheet;
