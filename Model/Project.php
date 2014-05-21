@@ -3,6 +3,7 @@
 namespace Karis\TimesheetBundle\Model;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * Project
@@ -11,8 +12,6 @@ use Doctrine\ORM\Mapping as ORM;
 class Project implements ProjectInterface
 {
     /**
-     * @var \Karis\TimesheetBundle\Entity\Timesheet
-     *
      * @ORM\OneToMany(targetEntity="Timesheet", mappedBy="project")
      */
     protected $timesheet;
@@ -59,7 +58,7 @@ class Project implements ProjectInterface
      */
     public function __construct()
     {
-        $this->timesheet = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->timesheet = new ArrayCollection();
     }
 
     /**
