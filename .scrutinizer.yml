@@ -2,3 +2,6 @@ inherit: true
 
 tools:
     external_code_coverage: true
+    php_cpd:
+        enabled: true
+        excluded_dirs: [Form]
