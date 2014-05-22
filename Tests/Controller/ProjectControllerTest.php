@@ -7,7 +7,6 @@ class ProjectControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testCompleteScenario()
     {
-    	/*
         // Create a new client to browse the application
         $client = static::createClient();
 
@@ -46,7 +45,6 @@ class ProjectControllerTest extends \PHPUnit_Framework_TestCase
 
         // Check the entity has been delete on the list
         $this->assertNotRegExp('/Edit Test/', $client->getResponse()->getContent());
-        */
     }
 
 }

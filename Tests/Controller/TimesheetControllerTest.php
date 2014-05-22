@@ -7,7 +7,6 @@ class TimesheetControllerTest extends \PHPUnit_Framework_TestCase
 
     public function testCompleteScenario()
     {
-    	/*
         // Create a new client to browse the application
         $client = static::createClient();
 
@@ -50,6 +49,5 @@ class TimesheetControllerTest extends \PHPUnit_Framework_TestCase
 
         // Check the entity has been delete on the list
         $this->assertNotRegExp('/2019-12-19 12:12:00/', $client->getResponse()->getContent());
-        */
     }
 }
